@@ -15,9 +15,12 @@ includes the following:
     $ npm install
     ```
 
-3. Open `ReactNativeEs6Reflux.xcodeproj` in XCode and run the project
+3. Start the webpack watcher (it builds the `index.ios.js` file expected by React Native)
+4. Open `ReactNativeEs6Reflux.xcodeproj` in XCode and run the project - it should look like this:
 
-## Javascript structure
+    ![iOS Simulator running this boilerplate](http://i.imgur.com/OKELxXP.png)
+
+## Javascript file structure
 
 ```
   - src/
@@ -30,3 +33,13 @@ includes the following:
     styles.js - StyleSheet definition(s)
     main.js   - Application bootstrap with react-native, transpiler entry-point
 ```
+
+## Included in the example:
+
+- A simple top-level `App` component with example styles (in `src/styles.js`)
+- An example interaction using `TouchableOpacity`, and an example Reflux action (defined in `src/actions.js`)
+- An example `AppMessageStore` Reflux store, which handles setting the random message when the React logo is tapped.
+
+## Author
+
+This boilerplate was created by [Filipe Dobreira](https://github.com/filp). It includes auto-generated code (through `react-native init`), and code by [Roman Liutikov](https://github.com/roman01la) (namely the webpack configuration).
