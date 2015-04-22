@@ -18,7 +18,7 @@ includes the following:
 3. Start the webpack watcher (it builds the `index.ios.js` file expected by React Native)
 4. Open `ReactNativeEs6Reflux.xcodeproj` in XCode and run the project - it should look like this:
 
-    ![iOS Simulator running this boilerplate](http://i.imgur.com/OKELxXP.png)
+    <img alt="iOS Simulator running this boilerplate" src="http://i.imgur.com/OKELxXP.png" height="50%" width="50%">
 
 ## Javascript file structure
 
