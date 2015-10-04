@@ -7,7 +7,9 @@ var path = require("path");
 
 module.exports = {
   watch: true,
-  entry: path.join(__dirname, "/src/main.js"),
+  entry: {
+    'index.ios': path.join(__dirname, "/src/main.js")
+  },
   externals: [require("./ignored-modules")],
   module: {
     loaders: [
