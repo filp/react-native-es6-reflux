@@ -38,5 +38,11 @@
 	<false/>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
-</dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+	  <!--Include to allow all connections (NOT RECOMENDED)-->
+	  <key>NSAllowsArbitraryLoads</key>
+	      <true/>
+	</dict>
+	</dict>
 </plist>
